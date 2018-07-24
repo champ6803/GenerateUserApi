@@ -12661,11 +12661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
+      "projectUniqueName": "C:\\Project\\EmployeeInsertApi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
-      "projectPath": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
+      "projectPath": "C:\\Project\\EmployeeInsertApi\\GenerateUserApi.csproj",
       "packagesPath": "C:\\Users\\champ\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\ATSDev\\GenerateUserApi\\obj\\",
+      "outputPath": "C:\\Project\\EmployeeInsertApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12722,12 +12722,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Project\\ATSDev\\GenerateUserApi\\obj\\GenerateUserApi.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

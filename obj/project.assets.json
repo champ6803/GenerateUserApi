@@ -6025,7 +6025,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "iWcLR7GuZExynJe+xORPyfbu4E6ajLZLz1SiHeNLuLkzVYEIHe7fjpakM5aCNBOIdVgw9T+WXTgCwSXwpr0QCQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -8661,7 +8661,7 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
+      "sha512": "ruUkF5xyfuWVEXfG458/4wy/Jvq1ptOjM1t+JgHYQdJf3ZBPokpoXffNP5e3Bn8j8CQqiHk8ixI0ZccjsgQPCw==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
@@ -9572,7 +9572,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "wlyZPt+5H3qQdBYKmE34DY60s+7//7rusF3YqBMiwIXpjpZ/68RMAo39AHOWBjeJTrf92V9zNgMX15Ga7dZLlA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12655,28 +12655,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\champ\\.nuget\\packages\\": {},
+    "C:\\Users\\jida\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Project\\EmployeeInsertApi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
       "projectPath": "C:\\Project\\EmployeeInsertApi\\GenerateUserApi.csproj",
       "packagesPath": "C:\\Users\\champ\\.nuget\\packages\\",
       "outputPath": "C:\\Project\\EmployeeInsertApi\\obj\\",
+=======
+      "projectUniqueName": "D:\\G-ABLE\\Project\\GenerateUserApi\\GenerateUserApi.csproj",
+      "projectName": "GenerateUserApi",
+      "projectPath": "D:\\G-ABLE\\Project\\GenerateUserApi\\GenerateUserApi.csproj",
+      "packagesPath": "C:\\Users\\jida\\.nuget\\packages\\",
+      "outputPath": "D:\\G-ABLE\\Project\\GenerateUserApi\\obj\\",
+>>>>>>> f441bcea7420e7dcb95652591fa06576fbf0f9e0
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\champ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

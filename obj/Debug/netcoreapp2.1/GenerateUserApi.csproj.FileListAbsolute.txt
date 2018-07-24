@@ -26,6 +26,7 @@ C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.Assemb
 C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
 C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
 C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
+<<<<<<< HEAD
 C:\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csprojAssemblyReference.cache
 C:\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csproj.CoreCompileInputs.cache
 C:\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cache
@@ -68,3 +69,19 @@ C:\Project\EmployeeInsertApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInf
 C:\Project\EmployeeInsertApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
 C:\Project\EmployeeInsertApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
 C:\Project\EmployeeInsertApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
+=======
+D:\G-ABLE\Project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.deps.json
+D:\G-ABLE\Project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.json
+D:\G-ABLE\Project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.dev.json
+D:\G-ABLE\Project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.dll
+D:\G-ABLE\Project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.pdb
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csprojAssemblyReference.cache
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csproj.CoreCompileInputs.cache
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cache
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cs
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfoInputs.cache
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfo.cs
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
+D:\G-ABLE\Project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
+>>>>>>> f441bcea7420e7dcb95652591fa06576fbf0f9e0

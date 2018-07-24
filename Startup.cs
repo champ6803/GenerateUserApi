@@ -25,7 +25,13 @@ namespace GenerateUserApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.AllowAnyOrigin()
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod());
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -40,10 +46,10 @@ namespace GenerateUserApi
             {
                 //app.UseHsts();
             }
-            app.UseCors(
-                options => options.WithOrigins("https://localhost:8000").AllowAnyMethod()
-            );
-            
+            //app.UseCors(
+            //    options => options.WithOrigins("https://localhost:8000").AllowAnyMethod()
+            //);
+            app.UseCors("AllowAll");
 
             //app.UseHttpsRedirection();
             app.UseMvc();

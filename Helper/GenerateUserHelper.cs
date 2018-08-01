@@ -9,18 +9,24 @@ namespace GenerateUserApi.Helper
 {
     public class GenerateUserHelper
     {
-        public async Task<IEnumerable<Profile>> GetAll()
+        public async Task<IEnumerable<Profile>> GetProfileList()
         {
-            return await new GenerateUserLibrary().GetAll();
+            return await new ProfileLibrary().GetProfileList();
         }
 
-        public async Task<Profile> GenerateUser(string email)
+        public async Task<User> GenerateUserByProfile(Profile profile)
         {
-            return await new GenerateUserLibrary().GenerateUserPass(email);
+            return await new UserLibrary().GenerateUserByProfile(profile);
         }
 
-        public async Task<User> GetUser(string email) {
-            return await new GenerateUserLibrary().GetUser(email);
+        public async Task<User> GetUser(string email)
+        {
+            return await new UserLibrary().GetUser(email);
+        }
+
+        public async Task<Profile> GetProfileByEmail(string email)
+        {
+            return await new ProfileLibrary().GetProfileByEmail(email);
         }
     }
 }

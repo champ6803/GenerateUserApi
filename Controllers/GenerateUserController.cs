@@ -18,7 +18,7 @@ namespace GenerateUserApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<Profile>> GetProfileAll()
         {
-            var all = genHelp.GetAll();
+            var all = genHelp.GetProfileList();
             return await all;
         }
 
@@ -26,16 +26,13 @@ namespace GenerateUserApi.Controllers
         [HttpGet("{email}")]
         public async Task<User> GenerateUser(string email)
         {
-            var profile = await GenUserByProfile(email);
-            var user = await GetUser(email);
-
-            return user;
-        }
-
-        public async Task<Profile> GenUserByProfile(string email)
-        {
-            var profile = genHelp.GenerateUser(email);
-            return await profile;
+            Profile profile = await genHelp.GetProfileByEmail(email);
+            if (profile != null)
+            {
+                User user = await genHelp.GenerateUserByProfile(profile);
+                return user;
+            }
+            return null;
         }
 
         public async Task<User> GetUser(string email)

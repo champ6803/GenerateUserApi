@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using GenerateUserApi.Models;
 
-namespace GenerateUserApi.Models
+namespace GenerateUserApi.DAL
 {
     public class UserDAL
     {
@@ -25,19 +26,47 @@ namespace GenerateUserApi.Models
             return list;
         }
 
-        public async Task InsertUser(User user)
+        public async Task<string> InsertUser(User user)
         {
-            await this.col.InsertOneAsync(user);
+            try
+            {
+                if (user != null)
+                {
+                    await this.col.InsertOneAsync(user);
+                    return user.id;
+                }
+                return null;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public async Task<User> GetUser(string email)
+        public async Task<User> GetUserByEmail(string email)
         {
-            var user = await this.col.Find(x => x.email.Equals(email)).FirstAsync();
-            if(user != null)
+            try
             {
+                var user = await this.col.Find(x => x.email.Equals(email)).FirstOrDefaultAsync();
                 return user;
             }
-            return null;
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task<User> GetUserById(string id)
+        {
+            try
+            {
+                var user = await this.col.Find(x => x.id.Equals(id)).FirstOrDefaultAsync();
+                return user;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

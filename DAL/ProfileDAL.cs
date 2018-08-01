@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using GenerateUserApi.Models;
 
-namespace GenerateUserApi.Models
+namespace GenerateUserApi.DAL
 {
     public class ProfileDAL
     {
@@ -21,15 +22,28 @@ namespace GenerateUserApi.Models
 
         public async Task<IEnumerable<Profile>> All()
         {
-            var list = await this.col.Find(new BsonDocument()).ToListAsync();
-            return list;
+            try
+            {
+                var list = await this.col.Find(new BsonDocument()).ToListAsync();
+                return list;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public async Task<Profile> GetProfile(string email)
+        public async Task<Profile> GetProfileByEmail(string email)
         {
-            var profile = await this.col.Find(x => x.email.Equals(email)).FirstAsync();
-            
-            return profile;
+            try
+            {
+                var profile = await this.col.Find(x => x.email.Equals(email)).FirstOrDefaultAsync();
+                return profile;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
     }

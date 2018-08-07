@@ -1,0 +1,14 @@
+E:\project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.deps.json
+E:\project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.json
+E:\project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.dev.json
+E:\project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.dll
+E:\project\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.pdb
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csprojAssemblyReference.cache
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csproj.CoreCompileInputs.cache
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cache
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cs
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfoInputs.cache
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfo.cs
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
+E:\project\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb

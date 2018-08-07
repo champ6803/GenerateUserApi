@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using GenerateUserApi.Helper;
 using GenerateUserApi.Models;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GenerateUserApi.Controllers
 {
@@ -15,7 +16,7 @@ namespace GenerateUserApi.Controllers
     {
         protected GenerateUserHelper genHelp = new GenerateUserHelper();
         // GET api/generateuser
-        [HttpGet]
+        [HttpGet, Authorize]
         public async Task<IEnumerable<Profile>> GetProfileAll()
         {
             var all = genHelp.GetProfileList();

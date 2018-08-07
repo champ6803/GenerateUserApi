@@ -13,7 +13,6 @@ namespace GenerateUserApi.Helper
         {
             return await new ProfileLibrary().GetProfileList();
         }
-
         public async Task<User> GenerateUserByProfile(Profile profile)
         {
             return await new UserLibrary().GenerateUserByProfile(profile);

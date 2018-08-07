@@ -23,6 +23,14 @@ namespace GenerateUserApi.Controllers
             return await all;
         }
 
+         [HttpPost("getprofile"), Authorize]
+        public async Task<Profile> GetProfileByEmail(string email)
+        {
+            //string email = "chingchana@gmail.com";
+            var profile = genHelp.GetProfileByEmail(email);
+            return await profile;
+        }
+
         // GET api/GenerateUser/admin@gmail.com
         [HttpGet("{email}")]
         public async Task<User> GenerateUser(string email)

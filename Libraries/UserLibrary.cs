@@ -46,9 +46,10 @@ namespace GenerateUserApi.Libraries
         {
             try
             {
+                User u = null; 
                 if (profile != null)
                 {
-                    User u = new User();
+                    u = new User();
                     if (profile.type_account == "Application")
                     {
                         u.user = profile.email;
@@ -69,7 +70,7 @@ namespace GenerateUserApi.Libraries
                         return user;
                     }
                 }
-                return null;
+                return u;
             }
             catch (Exception ex)
             {

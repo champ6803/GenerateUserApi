@@ -70,7 +70,7 @@ namespace GenerateUserApi
             app.UseAuthentication();
             app.UseCors("AllowAll");
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

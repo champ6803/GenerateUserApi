@@ -38,7 +38,7 @@ namespace GenerateUserApi.Libraries
         public string GeneratePassword()
         {
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            return new string(Enumerable.Repeat(chars, 16).Select(s =>
+            return new string(Enumerable.Repeat(chars, 8).Select(s =>
              s[random.Next(s.Length)]).ToArray());
         }
 
